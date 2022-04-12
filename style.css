@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box !important;
+  box-sizing: border-box;
 }
 
 html,
@@ -28,7 +28,7 @@ body {
   right: 0;
   height: 100%;
   margin: auto;
-  width: 90vw;
+  width: 100%;
 }
 
 .line {
@@ -103,7 +103,7 @@ body {
 }
 
 .glass {
-  position: absolute;
+  position: relative;
   top: 35%;
   left: 21%;
   width: 800px;
@@ -126,13 +126,10 @@ body {
     flex-wrap: wrap;
 }
 .header h3{
-    margin-top: 45px;
+    margin-top: 0px;
 }
 
 .img1{
-    position: absolute;
-    top: 36%;
-    left: 48.2%;
     opacity: 1;
     z-index: 4;
 }
@@ -171,9 +168,8 @@ body {
 
 .fa-code{
     color: gray;
-    position: absolute;
-    left: 77%;
-    top: 36%;
+    position: relative;
+    left: 49%;
 }
 
 .fa-code:hover{
