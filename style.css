@@ -195,8 +195,7 @@ body {
 .affiliate{
   font-size: 10px;
   position: absolute;
-  top: 68%;
-  left: 65%;
+  right: 2px;
   color: gray;
 }
 .affiliate span{
