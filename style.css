@@ -195,12 +195,10 @@ body {
 .affiliate{
   font-size: 10px;
   position: absolute;
-  right: 1.5px;
+  right: 2px;
   color: gray;
 }
 .affiliate span{
   color: darkred;
-  font-size: 10px;
 }
-
 
