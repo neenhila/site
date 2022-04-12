@@ -192,3 +192,15 @@ body {
     }
 }
 
+.affiliate{
+  font-size: 10px;
+  position: absolute;
+  top: 68%;
+  left: 65%;
+  color: gray;
+}
+.affiliate span{
+  color: darkred;
+}
+
+
