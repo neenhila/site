@@ -162,7 +162,9 @@ body {
 
 .fa:hover{
     color: white;
-    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
 }
 
 .fa-instagram{
