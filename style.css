@@ -157,12 +157,37 @@ body {
     width: 55px;
     z-index: 3;
     opacity: 2;
+    animation: slowHover 2.5s ease-in-out infinite;
 }
 
 .fa:hover{
     color: white;
-    animation: slowHover 2.5s infinite;
 }
+
+.fa-instagram{
+   animation-delay: 1s;
+}
+
+.fa-twitter-square{
+  animation-delay: 1.25s;
+}
+
+.fa-stack-overflow{
+  animation-delay: 1.5s;
+}
+
+.fa-github-square{
+  animation-delay: 1.75s;
+}
+
+.fa-youtube-square{
+  animation-delay: 2s;
+}
+
+.fa-reddit-square{
+  animation-delay: 2.25s;
+}
+
 
 .fa-code{
     color: gray;
