@@ -165,6 +165,8 @@ body {
     -webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
     -o-animation-play-state: paused;
+    animation: none;
+    animation-delay: 9999s;
 }
 
 .fa-instagram{
@@ -196,6 +198,7 @@ body {
     color: gray;
     position: relative;
     left: 49%;
+    animation: none;
 }
 
 .fa-code:hover{
