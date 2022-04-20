@@ -314,10 +314,20 @@ body {
 .discordjs img,
 .mongodb img,
 .sqlite3 img,
-.electron img,
-.herokux img,
+.electron img {
+ height: 16px;
+  width: 16px;
+  margin-right: 3px;
+  border-radius: 50%;
+}
+.herokux img{
+ height: 16px;
+  width: 16px;
+  margin-right: 3px;
+  border-radius: 50%;
+}
 .luax img {
-  height: 16px;
+   height: 16px;
   width: 16px;
   margin-right: 3px;
   border-radius: 50%;
