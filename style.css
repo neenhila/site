@@ -6,6 +6,7 @@
 }
 html {
   scroll-behavior: smooth;
+  moz-scroll-behavior: smooth;
 }
 body {
   width: 100%;
