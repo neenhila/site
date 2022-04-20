@@ -291,3 +291,10 @@ var css3Interval = setInterval(function (){
     document.getElementById("css3second").innerText = seconds
     document.getElementById("css3millisecond").innerText = milliseconds
 }, 81)
+
+
+let el = document.getElementById("code")
+
+el.addEventListener("click", function(){
+    alert("Now, you're redirecting to another website! Don't worry, it's just joke.")
+})
