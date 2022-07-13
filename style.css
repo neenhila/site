@@ -486,6 +486,52 @@ body {
   transform: translate(-50%, -50%);
   width: 60%;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.landscapeinput{
+  position: relative;
+  width: 340px;
+  line-height: 24px;
+  border: 2px solid palevioletred;
+  border-radius: 2px;
+  margin-bottom: 12px;
+}
+.landscapeinput::placeholder{
+  margin-left: 4px;
+}
+.landscapeinput::moz-placeholder{
+  margin-left: 4px;
+}
+
+.landscapeinput:focus{
+  border: 8px solid pink;
+  box-shadow: 2px 4px 4px 2px;
+}
+
+.landscapebutton{
+  width: 350px;
+  height: auto;
+  line-height: 20px;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+.landscapebutton:active{
+  background: palevioletred;
+}
+.stickforping{
+  position: relative;
+  font-size: 48px;
+  color: red;
+  margin-bottom: 6px;
+  margin-top: 4px;
+}
+.burayatikla{
+  font-size: 13px;
+  font-family: 'Playfair Display', serif;
 }
 .fullmain {
   margin: 0;
@@ -494,7 +540,7 @@ body {
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   .landscapefor {
-    display: block;
+    display: flex;
   }
   .fullmain {
     display: none;
