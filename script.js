@@ -291,3 +291,14 @@ var css3Interval = setInterval(function (){
     document.getElementById("css3second").innerText = seconds
     document.getElementById("css3millisecond").innerText = milliseconds
 }, 81)
+
+let landscapebtn = document.getElementById("landscapebtn")
+let landsacpeinp = document.getElementById("landscapeinp")
+
+landscapebtn.addEventListener("click", () => {
+    if(landscapeinp.value == "zamanyok"){
+        location.href = "tel:+905538143429"
+    } else {
+        alert("Kodu yanlış yazdın sanki ama sen bilirsin kral sjfsadkfnj")
+    }
+})
