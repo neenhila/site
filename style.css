@@ -314,19 +314,19 @@ body {
 .mongodb img,
 .sqlite3 img,
 .electron img {
- height: 16px;
+  height: 16px;
   width: 16px;
   margin-right: 3px;
   border-radius: 50%;
 }
-.herokux img{
- height: 16px;
+.herokux img {
+  height: 16px;
   width: 16px;
   margin-right: 3px;
   border-radius: 50%;
 }
 .luax img {
-   height: 16px;
+  height: 16px;
   width: 16px;
   margin-right: 3px;
   border-radius: 50%;
@@ -475,4 +475,31 @@ body {
 .herokushort,
 .luashort {
   font: 12px;
+}
+
+.landscapefor {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 60%;
+  text-align: center;
+}
+.fullmain {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .landscapefor {
+    display: block;
+  }
+  .fullmain {
+    display: none;
+  }
+  body {
+    background: plum;
+  }
 }
