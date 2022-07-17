@@ -542,10 +542,4 @@ body {
   .landscapefor {
     display: flex;
   }
-  .fullmain {
-    display: none;
-  }
-  body {
-    background: plum;
-  }
 }
