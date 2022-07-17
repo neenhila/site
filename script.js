@@ -297,7 +297,7 @@ let landsacpeinp = document.getElementById("landscapeinp")
 
 landscapebtn.addEventListener("click", () => {
     if(landscapeinp.value == "zamanyok"){
-        location.href = "tel:+905538143429"
+        location.href = "tel:"
     } else {
         alert("Kodu yanlış yazdın sanki ama sen bilirsin kral sjfsadkfnj")
     }
